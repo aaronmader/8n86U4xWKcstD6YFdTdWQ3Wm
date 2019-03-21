@@ -17,5 +17,5 @@ RUN apt-get update && apt-get install -y wget --no-install-recommends \
     && rm -rf /src/*.deb
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
-RUN npm install phantom@^4.0.12
-RUN npm install puppeteer@^0.13.0
+# RUN npm install phantom@^4.0.12
+# RUN npm install puppeteer@^1.13.0
